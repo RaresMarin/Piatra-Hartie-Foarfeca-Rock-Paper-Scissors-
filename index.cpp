@@ -13,6 +13,9 @@ int main()
     {
     int calc = 0;
     int om = 0;
+    bool ok = true;
+    while(ok==true)
+    {
     for(int i=1;i<=n;i++)
     {
         int random = rand()%3;
@@ -69,7 +72,24 @@ int main()
         cout<<" : Calculator ";
         cout<<calc<<endl;
     }
+    else{
+        cout<<"Alegere Invalida"<<endl;
+        n++;
     }
+    }
+    
+        cout<<"Mai jucam o tura? Pentru Da scrie (D), iar pentru Nu (N).";
+        char nu;
+        cin>>nu;
+    if((nu=='D') || (nu=='d'))
+    {
+        n=1;
+    }
+    else if((nu=='N') || (nu=='n'))
+        ok=false;
+    else
+    cout<<"Introdu o litera persima! D sau N. :{";
 }
-    return 0;
+    }
+return 0;
 }
