@@ -20,13 +20,15 @@ This is a game of rock, paper, scissors made in c++. I made this to showcase my 
 - Run the program
 - Play the game
 
-## 📚 Creativity 
 
-This simulation helps visualize and understand:
+## 🎩 Usage
+This project is ideal for:
 
-- Planetary motion  
-- Orbital periods  
-- Relative distances and sizes in the solar system
+Children who are boring and want to play
+Parents and teachers looking for interesting ways to make their children or students curious
+Anyone who enjoys casual games
+
+You don’t need any special software or installation. Just open a compiler and start playing right away!
 
 ## 🪪 License
 
